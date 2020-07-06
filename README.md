@@ -34,7 +34,7 @@ Einfache Echtzeit-Anzeige der YouTube-Abonnentenzahl unter Verwendung eines ESP8
 - [ArduinoJson](https://github.com/bblanchon/ArduinoJson) - *getestet mit v. 6.15.2*
 - [LedControl](https://github.com/wayoda/LedControl) - *getestet mit v. 1.0.6*
 
-Installiere die Bibliotheken einfach über den [Bibliotheksverwalter]((https://www.arduino.cc/en/Guide/Libraries#toc3)) unter **Werkzeuge ➔ Bibliotheken verwalten...** oder [manuell](https://www.arduino.cc/en/Guide/Libraries#toc4) per `.zip` von GitHub.
+Installiere die Bibliotheken einfach über den [Bibliotheksverwalter](https://www.arduino.cc/en/Guide/Libraries#toc3) unter **Werkzeuge ➔ Bibliotheken verwalten...** oder [manuell](https://www.arduino.cc/en/Guide/Libraries#toc4) per `.zip` von GitHub.
 
 ## Boardkonfiguration
 
