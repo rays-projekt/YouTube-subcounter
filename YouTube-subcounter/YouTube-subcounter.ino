@@ -2,13 +2,15 @@
  * YouTube Subscriber counter
  * by stealthyV1per
  * 
- * Displays your current subscriber count 
+ * Displays your current subscriber count in real time
  * 
  * Based on: https://www.instructables.com/id/YouTube-Subscriber-Counter-With-ESP8266-V2/
  **/
 #include <ESP8266WiFi.h>
 #include <WiFiClientSecure.h>
 #include <Wire.h>
+
+#include "confidentials.h"
 
 /**
  * Additional Libraries - each one of these will need to be installed.
@@ -24,17 +26,6 @@
 #include <LedControl.h>
 // Library used for simple segmented display
 // https://github.com/wayoda/LedControl
-
-/**
- * Replace the following!
- **/
-// WiFi Network settings
-#define WIFI_SSID ""
-#define WIFI_PASSWORD ""
-
-// Google API key and YouTube channel ID
-#define API_KEY "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-#define CHANNEL_ID "YOUR CHANNEL ID HERE"
 
 /**
  * Replace if needed
