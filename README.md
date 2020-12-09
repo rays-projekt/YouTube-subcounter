@@ -9,7 +9,7 @@ Einfache Echtzeit-Anzeige der YouTube-Abonnentenzahl unter Verwendung eines ESP8
 
 ## Inhaltsverzeichniss <!-- omit in toc -->
 
-- [Vorraussetzungen](#vorraussetzungen)
+- [Vorraussetzungen](#vorraussetzungen) 
 - [Materialien](#materialien)
 - [Bibliotheken](#bibliotheken)
 - [Boardkonfiguration](#boardkonfiguration)
@@ -31,12 +31,14 @@ Einfache Echtzeit-Anzeige der YouTube-Abonnentenzahl unter Verwendung eines ESP8
 ## Bibliotheken
 
 - [YouTubeApi](https://github.com/witnessmenow/arduino-youtube-api) - *getestet mit v. 2.0.0*
-- [ArduinoJson](https://github.com/bblanchon/ArduinoJson) - *getestet mit v. 6.15.2*
+- [ArduinoJson](https://github.com/bblanchon/ArduinoJson) - *getestet mit v. 6.17.2*
 - [LedControl](https://github.com/wayoda/LedControl) - *getestet mit v. 1.0.6*
 
 Installiere die Bibliotheken einfach über den [Bibliotheksverwalter](https://www.arduino.cc/en/Guide/Libraries#toc3) unter **Werkzeuge ➔ Bibliotheken verwalten...** oder [manuell](https://www.arduino.cc/en/Guide/Libraries#toc4) per `.zip` von GitHub.
 
 ## Boardkonfiguration
+
+Um deinen Arduino mit dem Internet zu verbinden, benenne `confidentials_example.h` in `confidentials.h` um und ändere in der Datei die angegebenen variablen.
 
 Bevor du dich in dieses Projekt stürzt, solltest du dich zunächst vergewissern, dass deine Arduino-Software richtig eingerichtet ist, um das von dir verwendete Board zu programmieren.
 
